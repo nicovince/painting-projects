@@ -1,0 +1,50 @@
+Bruiser:
+  Socle: Kantor Blue
+  Bouclier:
+    - Wyldwood
+    - Leadbelcher
+  Peau: Spacewolves Grey
+  Armure: Retributor Armour
+  Chausses: Snakebite Leather
+
+Cragheart:
+  Socle: Averland Sunset
+  Peau: Aggaros Dune
+  Epaulettes/Genouilleres: Averland Sunset
+  Pagne: Snakebite Leather
+
+Spellweaver:
+  Socle:
+    - Mephison Red
+    - Corax White
+  Peau: Spacewolves Grey
+  Robe: Moody Mauve
+  Spell:
+    - Highlord Blue
+    - Fire Giant Orange
+
+Mindthief:
+  Socle:
+    - Kantor Blue
+    - Corax White
+  Peau:
+    - Spacewolves Grey
+    - Snakebite Leather
+
+Silent Knife:
+  Socle: Caliban Green
+  Peau: Snakebite Leather
+  Bottes: Snakebite Leather
+  Habits: Aggaros Dune
+  Dagues: Leadbelcher
+
+Tinkerer:
+  Socle:
+    - Averland Sunset
+    - Mephiston Red
+  Peau: Aggaros Dune
+  Cape/Habits: Highlord Blue
+  Armure: Retributor Armor
+  Chausses: Snakebite Leather
+  Arbalete: Whyldwood
+  Grenade: Moody Mauve
