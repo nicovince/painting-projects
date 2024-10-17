@@ -7,12 +7,7 @@ import numpy as np
 from matplotlib import colormaps
 import matplotlib as mpl
 import colorsys
-
-def rgb_to_hsv(r, g, b):
-    h, s, v = colorsys.rgb_to_hsv(r, g, b)
-    h = h * 2*np.pi
-    print(f"{r=}, {g=}, {b=} -> {h=}, {s=}, {v=}")
-    return (h, s, v)
+from colors import *
 
 fig = plt.figure()
 
@@ -34,9 +29,7 @@ cb = mpl.colorbar.ColorbarBase(display_axes, cmap=colormaps.get_cmap('hsv'),
 # aesthetics - get rid of border and axis labels
 cb.outline.set_visible(False)
 display_axes.set_axis_off()
-display_axes.scatter(0, 1)
-print(colorsys.rgb_to_hsv(1, 0, 0))
-print(colorsys.rgb_to_hsv(1, 1, 0))
-display_axes.scatter(*rgb_to_hsv(1, 1, 0)[0:2])
-display_axes.scatter(*rgb_to_hsv(0.5, 0.4, 0)[0:2])
+
+add_colors(display_axes, colors)
+display_axes.legend()
 plt.show() # Replace with plt.savefig if you want to save a file
