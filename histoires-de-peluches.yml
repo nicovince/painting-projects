@@ -45,8 +45,17 @@ Suture:
 Boxeur:
   Peau:
     - Absolution Green
-    - Forest Spite
     - Ghoul Green
+  Casque:
+    - Snakebite Leather
+  Hachoir:
+    - Leadbelcher
+    - Aggaros Dune
+    - Agrax Earthshade
+  Bourrage:
+    - Runic Grey
+  Souture:
+    - Wyldwood
 
 Kidnappeur MK1:
   Peau:
