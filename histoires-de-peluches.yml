@@ -54,7 +54,7 @@ Boxeur:
     - Agrax Earthshade
   Bourrage:
     - Runic Grey
-  Souture:
+  Suture:
     - Wyldwood
 
 Kidnappeur MK1:
@@ -109,6 +109,18 @@ Grouillant:
     - Talos Bronze
     - Retributor Armour
 
-
-
-
+Coeur Noir:
+  Visage:
+    - Space Wolves Grey
+  Nez:
+    - Rigor Mortis
+  Bras:
+    - Rigor Mortis
+    - Absolution Green
+    - Ghoul Green
+  Jambes:
+    - Ghoul Green
+  Corps:
+    - Absolution Green
+  Suture:
+    - Abaddon Black
