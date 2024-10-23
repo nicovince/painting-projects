@@ -1,18 +1,25 @@
 Theadora:
-  Peau: Snakebite Leather
-  Ceinture: Aggaros Dunes
-  Echarpe: Moody Mauve
+  Peau:
+    - Snakebite Leather
+  Ceinture:
+    - Aggaros Dunes
+  Echarpe:
+    - Moody Mauve
 
 Pataud:
-  T-shirt: Highlord Blue
-  Peau: Space Wolves Grey
+  T-shirt:
+    - Highlord Blue
+  Peau:
+    - Space Wolves Grey
   Masse:
     - Leadbelcher
     - Aggaros Dune
 
 Lionel:
-  Peau: Aggaros Dune
-  Crinière: Snakebite Leather
+  Peau:
+    - Aggaros Dune
+  Crinière:
+    - Snakebite Leather
 
 Peggy:
   Peau:
@@ -69,7 +76,7 @@ Fabricant de Poupées:
   Botte:
     - Snakebite Leather
   Cheveux:
-    - Fire Giant Orange 
+    - Fire Giant Orange
   Lunettes:
     - Aggaros Dune
     - Space Wolves Grey
@@ -109,7 +116,7 @@ Grouillant:
     - Talos Bronze
     - Retributor Armour
 
-Coeur Noir:
+Coeur Noir 1:
   Visage:
     - Space Wolves Grey
   Nez:
@@ -122,5 +129,53 @@ Coeur Noir:
     - Ghoul Green
   Corps:
     - Absolution Green
+  Suture:
+    - Abaddon Black
+
+Coeur Noir 2:
+  Visage:
+    - Space Wolves Grey
+  Nez:
+    - Bony Matter
+  Bras:
+    - Bony Matter
+    - Mephiston Red
+    - Fire Giant Orange
+  Jambes:
+    - Fire Giant Orange
+  Corps:
+    - Mephiston Red
+  Suture:
+    - Abaddon Black
+
+Coeur Noir 3:
+  Visage:
+    - Space Wolves Grey
+  Nez:
+    - Mephiston Red
+  Bras:
+    - Mephiston Red
+    - Averland Sunset
+    - Highlord Blue
+  Jambes:
+    - Highlord Blue
+  Corps:
+    - Mephiston Red
+  Suture:
+    - Abaddon Black
+
+Coeur Noir 4:
+  Visage:
+    - Space Wolves Grey
+  Nez:
+    - Averland Sunset
+  Bras:
+    - Averland Sunset
+    - Rigor Mortis
+    - Bony Matter
+  Jambes:
+    - Rigor Mortis
+  Corps:
+    - Bony Matter
   Suture:
     - Abaddon Black
