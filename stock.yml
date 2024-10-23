@@ -1,39 +1,70 @@
 Citadel:
   Base:
-    - Corax White
-    - Abaddon Black
-    - Averland Sunset
-    - Mephiston Red
-    - Caliban Green
-    - Kantor Blue
-    - Leadbelcher
-    - Retributor Armour
+    - Corax White:
+        color: 0xffffff
+    - Abaddon Black:
+        color: 0x000000
+    - Averland Sunset:
+        color: 0xfbba00
+    - Mephiston Red:
+        color: 0x9b0e05
+    - Caliban Green:
+        color: 0x003b1d
+    - Kantor Blue:
+        color: 0x06234f
+    - Leadbelcher:
+        color: 0x000000
+    - Retributor Armour:
+        color: 0x000000
   Contrast:
-    - Aggaros Dunes
-    - Space Wolves Grey
-    - Basilicanum Grey
-    - Wyldwood
-    - Snakebite Leather
-    - Guilliman Flesh
-    - Plaguebearer Flesh
+    - Aggaros Dunes:
+        color: 0xd5bf73
+    - Space Wolves Grey:
+        color: 0x92b2cb
+    - Basilicanum Grey:
+        color: 0x9d9d9d
+    - Wyldwood:
+        color: 0x715551
+    - Snakebite Leather:
+        color: 0xb66e19
+    - Guilliman Flesh:
+        color: 0xd5a79a
+    - Plaguebearer Flesh:
+        color: 0xccd1a9
   Shade:
-    - Agrax Earthshade
+    - Agrax Earthshade:
+        color: 0x000000
   Technical:
-    - Agrellan Earth
-    - Stirland Mud
+    - Agrellan Earth:
+        color: 0x000000
+    - Stirland Mud:
+        color: 0x000000
+
 Army Painter:
   Speed Paint:
-    - Fire Giant Orange
-    - Moody Mauve
-    - Highlord Blue
-    - Absolution Green
-    - Runic Grey
-    - Talos Bronze
-    - Ghoul Green
-    - Bony Matter
-    - Rigor Mortis
-    - Familiar Pink
-    - Princess Pink
+    - Fire Giant Orange:
+        color: 0xc84916
+    - Moody Mauve:
+        color: 0xa65285
+    - Highlord Blue:
+        color: 0x335884
+    - Absolution Green:
+        color: 0x243b1f
+    - Runic Grey:
+        color: 0x000000
+    - Talos Bronze:
+        color: 0x000000
+    - Ghoul Green:
+        color: 0x000000
+    - Bony Matter:
+        color: 0x000000
+    - Rigor Mortis:
+        color: 0x000000
+    - Familiar Pink:
+        color: 0x000000
+    - Princess Pink:
+        color: 0x000000
+
 Vallejo:
   Varnish:
     - Satin Varnish
