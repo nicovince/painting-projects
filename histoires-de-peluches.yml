@@ -110,12 +110,41 @@ Crepitus:
   Cheveux:
     - Basilicanum Grey
 
-Grouillant:
-  Peau:
+Grouillant 1:
+  Tête:
     - Guilliman Flesh
+  Cheveux:
+    - Fire Giant Orange
   Crabe:
-    - Talos Bronze
     - Retributor Armour
+    - Averland Sunset
+
+Grouillant 2:
+  Tête:
+    - Guilliman Flesh
+  Cheveux:
+    - Highlord Blue
+  Crabe:
+    - Retributor Armour
+    - Averland Sunset
+
+Grouillant 3:
+  Tête:
+    - Guilliman Flesh
+  Cheveux:
+    - Familiar Pink
+  Crabe:
+    - Retributor Armour
+    - Averland Sunset
+
+Grouillant 4:
+  Tête:
+    - Guilliman Flesh
+  Cheveux:
+    - Absolution Green
+  Crabe:
+    - Retributor Armour
+    - Averland Sunset
 
 Coeur Noir 1:
   Visage:
