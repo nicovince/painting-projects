@@ -13,11 +13,11 @@ Pataud:
     - Space Wolves Grey
   Masse:
     - Leadbelcher
-    - Aggaros Dune
+    - Aggaros Dunes
 
 Lionel:
   Peau:
-    - Aggaros Dune
+    - Aggaros Dunes
   Crinière:
     - Snakebite Leather
 
@@ -42,11 +42,11 @@ Flagada:
 Suture:
   Peau:
     - Rigor Mortis
-    - Aggaros Dune
+    - Aggaros Dunes
     - Snakebite Leather
     - Wyldwood
   Crayon:
-    - Aggaros Dune
+    - Aggaros Dunes
     - Princess Pink
 
 Boxeur:
@@ -57,7 +57,7 @@ Boxeur:
     - Snakebite Leather
   Hachoir:
     - Leadbelcher
-    - Aggaros Dune
+    - Aggaros Dunes
     - Agrax Earthshade
   Bourrage:
     - Runic Grey
@@ -68,7 +68,8 @@ Kidnappeur MK1:
   Peau:
     - Retributor Armour
     - Leadbelcher
-  Joyaux: Fire Giant Orange
+  Joyaux:
+    - Fire Giant Orange
 
 Fabricant de Poupées:
   Peau:
@@ -78,7 +79,7 @@ Fabricant de Poupées:
   Cheveux:
     - Fire Giant Orange
   Lunettes:
-    - Aggaros Dune
+    - Aggaros Dunes
     - Space Wolves Grey
   Blouse:
     - Corax White
@@ -98,7 +99,7 @@ Crepitus:
   Robe:
     - Moody Mauve
   Gilet:
-    - Aggaros Dune
+    - Aggaros Dunes
   Ceinture:
     - Leadbelcher
     - Snakebite Leather
