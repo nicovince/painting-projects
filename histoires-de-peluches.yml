@@ -68,8 +68,14 @@ Kidnappeur MK1:
   Peau:
     - Retributor Armour
     - Leadbelcher
-  Joyaux:
+  Bras:
+    - Talos Bronze
+  Mains:
+    - Retributor Armour
+  Yeux:
     - Fire Giant Orange
+    - Highlord Blue
+    - Basilicanum Grey
 
 Fabricant de Poupées:
   Peau:
@@ -214,3 +220,9 @@ Corniaud:
   Corps:
     - Leadbelcher
     - Retributor Armour
+  Pattes:
+    - Retributor Armour
+    - Bony Matter
+    - Rigor Mortis
+  Yeux:
+    - Mephiston Red
