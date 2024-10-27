@@ -1,25 +1,29 @@
 Theadora:
   Peau:
-    - Snakebite Leather
-  Ceinture:
     - Aggaros Dunes
+  Ceinture:
+    - Averland Sunset
   Echarpe:
     - Moody Mauve
 
 Pataud:
   T-shirt:
-    - Highlord Blue
+    - Kantor Blue
   Peau:
-    - Space Wolves Grey
+    - Runic Grey
   Masse:
     - Leadbelcher
     - Aggaros Dunes
 
 Lionel:
   Peau:
-    - Aggaros Dunes
+    - Averland Sunset
   Crinière:
-    - Snakebite Leather
+    - Averland Sunset
+    - Aggaors Dunes
+  Patch:
+    - Mephiston Red
+    - Corax White
 
 Peggy:
   Peau:
@@ -27,27 +31,39 @@ Peggy:
     - Familiar Pink
   Bouclier:
     - Moody Mauve
-    - Familiar Pink
-  Sucette:
     - Princess Pink
+  Sucette:
+    - Mephiston Red
     - Corax White
 
 Flagada:
   Peau:
     - Rigor Mortis
-    - Bony Matter
-  Carquois:
-    - Highlord Blue
+    - Averland Sunset
+  Carquois / Patch:
+    - Caliban Green
+    - Kantor Blue
+  Arc:
+    - Wyldwood
 
 Suture:
   Peau:
+    - Averland Sunset
     - Rigor Mortis
+    - Guilliman Flesh
     - Aggaros Dunes
+    - Bony Matter
+  Sacoche:
     - Snakebite Leather
-    - Wyldwood
   Crayon:
-    - Aggaros Dunes
-    - Princess Pink
+    - Averland Sunset
+  Gomme:
+    - Mephiston Red
+    - Corax Whyte
+  Cape:
+    - Mephiston Red
+  Bonnet:
+    Rigor Mortis
 
 Boxeur:
   Peau:
