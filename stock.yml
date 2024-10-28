@@ -13,9 +13,9 @@ Citadel:
     Kantor Blue:
       color: 0x06234f
     Leadbelcher:
-      color: 0x000000
+      color: 0x505B5E
     Retributor Armour:
-      color: 0x000000
+      color: 0xA16E41
   Contrast:
     Aggaros Dunes:
       color: 0xd5bf73
@@ -33,12 +33,12 @@ Citadel:
       color: 0xccd1a9
   Shade:
     Agrax Earthshade:
-      color: 0x000000
+      color: 0x4B4830
   Technical:
     Agrellan Earth:
-      color: 0x000000
+      color: 0x9A816B
     Stirland Mud:
-      color: 0x000000
+      color: 0x2C211F
 
 Army Painter:
   Speed Paint:
@@ -51,23 +51,23 @@ Army Painter:
     Absolution Green:
       color: 0x243b1f
     Runic Grey:
-      color: 0x000000
+      color: 0x677E90
     Talos Bronze:
-      color: 0x000000
+      color: 0x8F4D39
     Ghoul Green:
-      color: 0x000000
+      color: 0x4AB16A
     Bony Matter:
-      color: 0x000000
+      color: 0xBC9979
     Rigor Mortis:
-      color: 0x000000
+      color: 0xB5B575
     Familiar Pink:
-      color: 0x000000
+      color: 0xDF318A
     Princess Pink:
-      color: 0x000000
+      color: 0xECA5BD
 
 Vallejo:
   Varnish:
     Satin Varnish:
-      colors: 0x000000
+      colors: 0xffffff
     Matt Varnish:
-      colors: 0x000000
+      colors: 0xffffff
