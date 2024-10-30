@@ -89,10 +89,9 @@ class Project:
             project = yaml.safe_load(f)
         return project
 
-    def gen_part(part):
-        paints = []
-        for paintname in part:
-            paints.append(stock.get_paint(paintname))
+    def get_name(self):
+        return self.project_file.split('.')[0]
+
 
 def html_table_paints(paints):
     paintnames = [p.name for p in paints]
@@ -103,12 +102,13 @@ def html_title(title, n):
     return f'<h{n}>{title}</h{n}>'
 
 def generate(project, stock):
-    with open('output.html', 'w') as f:
+    html_file = f"{project.get_name()}.html"
+    with open(html_file, 'w') as f:
         f.write(html_header())
-        f.write(html_head('pwet'))
+        f.write(html_head(project.get_name()))
         f.write("<body>")
         f.write(html_style())
-        f.write(html_title(project.project_file, 1))
+        f.write(html_title(project.get_name(), 1))
         for mini in project.project:
             f.write(html_title(mini, 2))
             for part in project.project[mini]:
