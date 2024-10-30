@@ -5,6 +5,8 @@ Theadora:
     - Averland Sunset
   Echarpe:
     - Moody Mauve
+  Socle:
+    - Averland Sunset
 
 Pataud:
   T-shirt:
@@ -14,6 +16,8 @@ Pataud:
   Masse:
     - Leadbelcher
     - Aggaros Dunes
+  Socle:
+    - Kantor Blue
 
 Lionel:
   Peau:
@@ -24,6 +28,8 @@ Lionel:
   Patch:
     - Mephiston Red
     - Corax White
+  Socle:
+    - Rigor Mortis
 
 Peggy:
   Peau:
@@ -35,6 +41,9 @@ Peggy:
   Sucette:
     - Mephiston Red
     - Corax White
+  Socle:
+    - Mephiston Red
+    - Kantor Blue
 
 Flagada:
   Peau:
@@ -45,6 +54,8 @@ Flagada:
     - Kantor Blue
   Arc:
     - Wyldwood
+  Socle:
+    - Bony Matter
 
 Suture:
   Peau:
@@ -64,6 +75,9 @@ Suture:
     - Mephiston Red
   Bonnet:
     - Rigor Mortis
+  Socle:
+    - Mephiston Red
+    - Averland Sunset
 
 Boxeur:
   Peau:
