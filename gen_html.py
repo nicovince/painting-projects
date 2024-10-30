@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
 import argparse
+import logging
+import sys
 import yaml
+
+logger = logging.getLogger('PP')
 
 def colorcode_to_html_div(colorcode):
     nbsp = '&nbsp'
@@ -99,28 +103,34 @@ def html_title(title, n):
     return f'<h{n}>{title}</h{n}>'
 
 def generate(project, stock):
-    print(html_header())
-    print(html_head('pwet'))
-    print("<body>")
-    print(html_style())
-    print(html_title(project.project_file, 1))
-    for mini in project.project:
-        print(html_title(mini, 2))
-        for part in project.project[mini]:
-            print(html_title(part, 3))
-            part_paints = []
+    with open('output.html', 'w') as f:
+        f.write(html_header())
+        f.write(html_head('pwet'))
+        f.write("<body>")
+        f.write(html_style())
+        f.write(html_title(project.project_file, 1))
+        for mini in project.project:
+            f.write(html_title(mini, 2))
+            for part in project.project[mini]:
+                f.write(html_title(part, 3))
+                part_paints = []
 
-            paints = project.project[mini][part]
-            for paintname in paints:
-                part_paints.append(stock.get_paint(paintname))
-                print(html_table_paints(part_paints))
-    print("</body>")
-    print('</html>')
+                paints = project.project[mini][part]
+                logger.info(f"Paints: {paints} for {part}")
+                for paintname in paints:
+                    part_paints.append(stock.get_paint(paintname))
+                f.write(html_table_paints(part_paints))
+        f.write("</body>")
+        f.write('</html>')
 
 
 
 
 def main():
+    logger.setLevel(logging.INFO)
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.INFO)
+    logger.addHandler(handler)
     parser = argparse.ArgumentParser(prog='gen_html.py',
                                      description='Generate HTML file with colors used for figurines')
     parser.add_argument('project',
@@ -128,13 +138,6 @@ def main():
                               'a project.'))
     args = parser.parse_args()
     stock = Stock('stock.yml')
-    #print(html_header())
-    #print(html_head(args.project))
-    #print("<body>")
-    #print(html_style())
-    #print(html_table(['Red', 'Green', 'Blue'], colorcodes_to_html_divs(['#ff0000', '#00ff00', '#0000ff'])))
-    #print("</body>")
-    #print('</html>')
     project = Project(args.project)
     generate(project, stock)
 
