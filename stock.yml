@@ -68,6 +68,6 @@ Army Painter:
 Vallejo:
   Varnish:
     Satin Varnish:
-      colors: 0xffffff
+      color: 0xffffff
     Matt Varnish:
-      colors: 0xffffff
+      color: 0xffffff
