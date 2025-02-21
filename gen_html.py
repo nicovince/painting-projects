@@ -101,6 +101,19 @@ def html_table_paints(paints):
 def html_title(title, n):
     return f'<h{n}>{title}</h{n}>'
 
+def handle_mini(html_fd, name, parts, stock):
+    html_fd.write(html_title(name, 2))
+    for p in parts:
+        html_fd.write(html_title(p, 3))
+        part_paints = []
+
+        paints = parts[p]
+        logger.info(f"Paints: {paints} for {p}")
+        for paintname in paints:
+            part_paints.append(stock.get_paint(paintname))
+        html_fd.write(html_table_paints(part_paints))
+
+
 def generate(project, stock):
     html_file = f"{project.get_name()}.html"
     with open(html_file, 'w') as f:
@@ -110,20 +123,9 @@ def generate(project, stock):
         f.write(html_style())
         f.write(html_title(project.get_name(), 1))
         for mini in project.project:
-            f.write(html_title(mini, 2))
-            for part in project.project[mini]:
-                f.write(html_title(part, 3))
-                part_paints = []
-
-                paints = project.project[mini][part]
-                logger.info(f"Paints: {paints} for {part}")
-                for paintname in paints:
-                    part_paints.append(stock.get_paint(paintname))
-                f.write(html_table_paints(part_paints))
+            handle_mini(f, mini, project.project[mini], stock)
         f.write("</body>")
         f.write('</html>')
-
-
 
 
 def main():
