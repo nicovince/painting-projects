@@ -101,23 +101,23 @@ def html_table_paints(paints):
 def html_title(title, n):
     return f'<h{n}>{title}</h{n}>'
 
-def handle_mini(html_fd, name, parts, stock):
-    html_fd.write(html_title(name, 2))
-    for p in parts:
-        html_fd.write(html_title(p, 3))
-        part_paints = []
-
-        paints = parts[p]
-        logger.info(f"Paints: {paints} for {p}")
-        for paintname in paints:
-            part_paints.append(stock.get_paint(paintname))
-        html_fd.write(html_table_paints(part_paints))
-
 
 class Figurine:
     def __init__(self, name, parts):
         self.name = name
         self.parts = parts
+
+    def to_html(self, stock):
+        html_str = f"{html_title(self.name, 2)}"
+        for part in self.parts:
+            html_str += f"{html_title(part, 3)}"
+            part_paints  = []
+            paints = self.parts[part]
+            logger.info(f"Paints: {paints} for {part}")
+            for paintname in paints:
+                part_paints.append(stock.get_paint(paintname))
+            html_str += f"{html_table_paints(part_paints)}"
+        return html_str
 
 
 def generate(project, stock):
@@ -130,7 +130,7 @@ def generate(project, stock):
         f.write(html_title(project.get_name(), 1))
         for mini in project.project:
             figurine = Figurine(mini, project.project[mini])
-            handle_mini(f, figurine.name, figurine.parts, stock)
+            f.write(figurine.to_html(stock))
         f.write("</body>")
         f.write('</html>')
 
