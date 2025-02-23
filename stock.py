@@ -28,3 +28,15 @@ class Stock(YmlFile):
                                  self.stock[manufacturer][paint_type][paintname]['color'])
         logger.warning("Paint %s not found in stock", paintname)
         return Paint.placeholder(paintname)
+
+    def get_paints_by_type(self, paint_type):
+        """Build list of paints of a type."""
+        for manufacturer in self.stock:
+            if paint_type in self.stock[manufacturer].keys():
+                paints = {c: self.stock[manufacturer][paint_type][c]['color'] for c in self.stock[manufacturer][paint_type]}
+        return paints
+
+
+if __name__ == "__main__":
+    stock = Stock('stock.yml')
+    print(stock.get_paints_by_type('Speed Paint'))

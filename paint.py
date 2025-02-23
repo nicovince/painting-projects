@@ -8,5 +8,3 @@ class Paint:
     @classmethod
     def placeholder(cls, name):
         return cls("ToBuy", "unknown Type", name, 0x00FF00)
-
-

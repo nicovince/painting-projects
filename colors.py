@@ -1,29 +1,12 @@
 #!/usr/bin/env python
 import colorsys
 import numpy as np
+from stock import Stock
 
-colors = {
-    'Corax White': 0xffffff,
-    'Abaddon Black': 0x000000,
-    'Averland Sunset': 0xfbba00,
-    'Mephiston Red': 0x9b0e05,
-    'Caliban Green': 0x003b1d,
-    'Kantor Blue': 0x06234f,
-}
-
-contrasts = {
-    'Moody Mauve': 0xA65285,
-    'Highlord Blue': 0x335884,
-    'Space Wolves Grey': 0x92B2CB,
-    'Absolution Green': 0x243B1F,
-    'Plaguebearer Flesh': 0xCCD1A9,
-    'Aggaros Dunes': 0xD5BF73,
-    'Snakebite Leather': 0xB66E19,
-    'Fire Giant Orange': 0xC84916,
-    'Guilliman Flesh': 0xD5A79A,
-    'Wyldwood': 0x715551,
-    'Basilicanum Grey': 0x9D9D9D,
-}
+stock = Stock('stock.yml')
+bases = stock.get_paints_by_type('Base')
+contrasts = stock.get_paints_by_type('Contrast')
+contrasts.update(stock.get_paints_by_type('Speed Paint'))
 
 def hexcode_to_rgb(code):
     r = ((code >> 16) & 0xff) / 0xff

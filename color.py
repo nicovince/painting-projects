@@ -30,7 +30,7 @@ def configure_axes(rowcolind):
 base_colors_axes = configure_axes(221)
 contrast_axes = configure_axes(223)
 
-add_colors(base_colors_axes, colors)
+add_colors(base_colors_axes, bases)
 add_colors(contrast_axes, contrasts)
 base_colors_axes.legend(bbox_to_anchor=(1.05, 1), loc=2)
 contrast_axes.legend(bbox_to_anchor=(1.05, 1), loc=2)
