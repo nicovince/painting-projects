@@ -4,6 +4,8 @@ import argparse
 import logging
 import sys
 import yaml
+from stock import Stock
+from paint import Paint
 
 logger = logging.getLogger('PP')
 
@@ -47,41 +49,6 @@ def html_table(colornames, html_divs):
     table.append("    </table>")
     table.append("  </div>")
     return '\n'.join(table)
-
-
-class Paint:
-    def __init__(self, manufacturer, painttype, name, colorcode):
-        self.manufacturer = manufacturer
-        self.painttype = painttype
-        self.name = name
-        self.colorcode = colorcode
-
-    @classmethod
-    def placeholder(cls, name):
-        return cls("ToBuy", "unknown Type", name, 0x00FF00)
-
-
-class Stock:
-    def __init__(self, file):
-        stock_file = file
-        self.stock = self.read_stock(file)
-
-    def read_stock(self, yaml_stock):
-        with open(yaml_stock, 'r') as f:
-            stock = yaml.safe_load(f)
-            return stock
-
-    def get_manufacturers(self):
-        return self.stock.keys()
-
-    def get_paint(self, paintname):
-        for manufacturer in self.stock:
-            for paint_type in self.stock[manufacturer].keys():
-                if paintname in self.stock[manufacturer][paint_type].keys():
-                    return Paint(manufacturer, paint_type, paintname,
-                                 self.stock[manufacturer][paint_type][paintname]['color'])
-        logger.warning("Paint %s not found in stock", paintname)
-        return Paint.placeholder(paintname)
 
 
 class Project:
