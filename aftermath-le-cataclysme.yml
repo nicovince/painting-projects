@@ -104,7 +104,7 @@ Fumerolle:
 
 Oracle Rougeoyeux:
   Peau:
-    - ???
+    - Templar White
   Griffes:
     - Leadbelcher
   Queue:
@@ -121,3 +121,36 @@ Scorpion:
     - Fire Giant Orange
     - Basilicanum Grey
 
+Chef Muridoux:
+  Peau:
+    - Templar White
+  Arbalète:
+    - Wyldwood
+  Cape:
+    - Moody Mauve
+  Besace:
+    - SnakeBite Leather
+    - Aggaros Dunes
+  Queue/Mains:
+    - Princess Pink
+
+Muridoux:
+  Peau:
+    - Templar White
+  Arbalète:
+    - Wyldwood
+  Lance:
+    - Leadbelcher
+  Cape:
+    - Highlord Blue
+    - Ghoul Green
+    - Bony Matter
+  Besace:
+    - SnakeBite Leather
+    - Aggaros Dunes
+  Queue/Mains:
+    - Princess Pink
+
+Chef Bagarreur:
+  Peau:
+    - Templar White
