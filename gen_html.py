@@ -114,6 +114,12 @@ def handle_mini(html_fd, name, parts, stock):
         html_fd.write(html_table_paints(part_paints))
 
 
+class Figurine:
+    def __init__(self, name, parts):
+        self.name = name
+        self.parts = parts
+
+
 def generate(project, stock):
     html_file = f"{project.get_name()}.html"
     with open(html_file, 'w') as f:
@@ -123,7 +129,8 @@ def generate(project, stock):
         f.write(html_style())
         f.write(html_title(project.get_name(), 1))
         for mini in project.project:
-            handle_mini(f, mini, project.project[mini], stock)
+            figurine = Figurine(mini, project.project[mini])
+            handle_mini(f, figurine.name, figurine.parts, stock)
         f.write("</body>")
         f.write('</html>')
 
@@ -142,8 +149,6 @@ def main():
     stock = Stock('stock.yml')
     project = Project(args.project)
     generate(project, stock)
-
-
 
 
 if __name__ == "__main__":
