@@ -56,6 +56,11 @@ class Paint:
         self.name = name
         self.colorcode = colorcode
 
+    @classmethod
+    def placeholder(cls, name):
+        return cls("ToBuy", "unknown Type", name, 0x00FF00)
+
+
 class Stock:
     def __init__(self, file):
         stock_file = file
@@ -75,8 +80,8 @@ class Stock:
                 if paintname in self.stock[manufacturer][paint_type].keys():
                     return Paint(manufacturer, paint_type, paintname,
                                  self.stock[manufacturer][paint_type][paintname]['color'])
-        assert False, f"Paint {paintname} not found in stock"
-        return None
+        logger.warning("Paint %s not found in stock", paintname)
+        return Paint.placeholder(paintname)
 
 
 class Project:
@@ -116,7 +121,7 @@ class Figurine:
             if type(paints) != list and type(paints) != dict:
                 paints = [paints]
 
-            logger.info(f"Paints: {paints} for {part}")
+            logger.debug(f"Paints: {paints} for {part}")
             for paintname in paints:
                 part_paints.append(stock.get_paint(paintname))
             html_str += f"{html_table_paints(part_paints)}"
@@ -125,6 +130,7 @@ class Figurine:
 
 def generate(project, stock):
     html_file = f"{project.get_name()}.html"
+    logger.info("Processing %s", project.project_file)
     with open(html_file, 'w') as f:
         f.write(html_header())
         f.write(html_head(project.get_name()))
