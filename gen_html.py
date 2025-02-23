@@ -113,6 +113,9 @@ class Figurine:
             html_str += f"{html_title(part, 3)}"
             part_paints  = []
             paints = self.parts[part]
+            if type(paints) != list and type(paints) != dict:
+                paints = [paints]
+
             logger.info(f"Paints: {paints} for {part}")
             for paintname in paints:
                 part_paints.append(stock.get_paint(paintname))
