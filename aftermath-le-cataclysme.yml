@@ -1,11 +1,11 @@
 Ronchonne:
   Peau:
-    - ???
+    - Aggaros Dunes
   Habits:
     - Leadbelcher
     - Abaddon Black
   Besace:
-    - Aggaros Dunes
+    - Wyldwood
     - Snakebite Leather
   Couteau:
     - Leadbelcher
@@ -14,14 +14,13 @@ Ronchonne:
 
 Ringr:
   Peau:
-    - ???
+    - Aggaros Dunes
   Cape:
     - Mephiston Red
   Veste:
     - Snakebite Leather
   Bandouillère:
-    - Aggaros Dunes
-    -
+    - Bony Matter
   Pistolet:
     - Wyldwood
     - Leadbelcher
@@ -31,7 +30,7 @@ Ringr:
 
 Mezzie:
   Peau:
-    - ???
+    - Templar White
   Lunettes:
     - Runic Grey
     - Abaddon Black
@@ -154,3 +153,73 @@ Muridoux:
 Chef Bagarreur:
   Peau:
     - Templar White
+  Fusil:
+    - Leadbelcher
+    - Wyldwood
+  Bandouillère:
+    - SnakeBite Leather
+    - Leadbelcher
+  Plastron:
+    - Ghoul Green
+    - Absolution Green
+    - Highlord Blue
+  Crocs Plastron:
+    - Templar White
+    - Abaddon Black
+  Cache Cou:
+    - Absolution Green
+  Garrot Jamble:
+    - SnakeBite Leather
+
+Bagarreur:
+  Peau:
+    - Templar White
+  Fusil:
+    - Leadbelcher
+    - Wyldwood
+  Bandouillère:
+    - SnakeBite Leather
+    - Leadbelcher
+  Plastron:
+    - Ghoul Green
+    - Absolution Green
+    - Highlord Blue
+  Crocs Plastron:
+    - Templar White
+    - Abaddon Black
+  Cache Cou:
+    - Absolution Green
+  Garrot Jamble:
+    - SnakeBite Leather
+  Clef Anglaise:
+    - Leadbelcher
+  Gants:
+    - Abaddon Black
+    - Leadbelcher
+  Cache Cou:
+    - Moody Mauve
+
+Chef Gecko:
+  Corps:
+    - Space Wolves Grey
+  Couteaux:
+    - Nuclear Yellow
+    - Fire Giant Orange
+  Habits:
+    - Basilicanum Grey
+  Yeux:
+    - Nuclear Yellow
+    - Fire Giant Orange
+
+Chasseur Gecko:
+  Corps:
+    - Absolution Green
+  Habits:
+    - Basilicanum Grey
+  Garrot:
+    - Snakebite Leather
+  Fusil:
+    - Leadbelcher
+    - Wyldwood
+    - Space Wolves Grey
+    - Abaddon Black
