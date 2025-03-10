@@ -7,6 +7,9 @@ Theadora:
     - Moody Mauve
   Socle:
     - Averland Sunset
+  pictures:
+    - 'pics/histoires-de-peluches/theadora-1.jpg'
+    - 'pics/histoires-de-peluches/theadora-2.jpg'
 
 Pataud:
   T-shirt:
@@ -18,6 +21,9 @@ Pataud:
     - Aggaros Dunes
   Socle:
     - Kantor Blue
+  pictures:
+    - 'pics/histoires-de-peluches/pataud-1.jpg'
+    - 'pics/histoires-de-peluches/pataud-2.jpg'
 
 Lionel:
   Peau:
@@ -30,6 +36,9 @@ Lionel:
     - Corax White
   Socle:
     - Rigor Mortis
+  pictures:
+    - 'pics/histoires-de-peluches/lionel-1.jpg'
+    - 'pics/histoires-de-peluches/lionel-2.jpg'
 
 Peggy:
   Peau:
@@ -44,6 +53,9 @@ Peggy:
   Socle:
     - Mephiston Red
     - Kantor Blue
+  pictures:
+    - 'pics/histoires-de-peluches/peggy-1.jpg'
+    - 'pics/histoires-de-peluches/peggy-2.jpg'
 
 Flagada:
   Peau:
@@ -56,6 +68,9 @@ Flagada:
     - Wyldwood
   Socle:
     - Bony Matter
+  pictures:
+    - 'pics/histoires-de-peluches/flagada-1.jpg'
+    - 'pics/histoires-de-peluches/flagada-2.jpg'
 
 Suture:
   Peau:
@@ -78,6 +93,9 @@ Suture:
   Socle:
     - Mephiston Red
     - Averland Sunset
+  pictures:
+    - 'pics/histoires-de-peluches/suture-1.jpg'
+    - 'pics/histoires-de-peluches/suture-2.jpg'
 
 Boxeur:
   Peau:
@@ -93,6 +111,9 @@ Boxeur:
     - Runic Grey
   Suture:
     - Wyldwood
+  pictures:
+    - 'pics/histoires-de-peluches/boxeur-1.jpg'
+    - 'pics/histoires-de-peluches/boxeur-2.jpg'
 
 Kidnappeur MK1:
   Peau:
@@ -106,6 +127,9 @@ Kidnappeur MK1:
     - Fire Giant Orange
     - Highlord Blue
     - Basilicanum Grey
+  pictures:
+    - 'pics/histoires-de-peluches/kidnappeur_mk1-1.jpg'
+    - 'pics/histoires-de-peluches/kidnappeur_mk1-2.jpg'
 
 Fabricant de Poupées:
   Peau:
@@ -121,6 +145,9 @@ Fabricant de Poupées:
     - Corax White
   Gants:
     - Absolution Green
+  pictures:
+    - 'pics/histoires-de-peluches/fabricant_de_poupee-1.jpg'
+    - 'pics/histoires-de-peluches/fabricant_de_poupee-2.jpg'
 
 Skrilla:
   Peau:
@@ -130,6 +157,9 @@ Skrilla:
   Robe:
     - Princess Pink
     - Familiar Pink
+  pictures:
+    - 'pics/histoires-de-peluches/skrilla-1.jpg'
+    - 'pics/histoires-de-peluches/skrilla-2.jpg'
 
 Crepitus:
   Robe:
@@ -145,6 +175,9 @@ Crepitus:
     - Guilliman Flesh
   Cheveux:
     - Basilicanum Grey
+  pictures:
+    - 'pics/histoires-de-peluches/crepitus-1.jpg'
+    - 'pics/histoires-de-peluches/crepitus-2.jpg'
 
 Grouillant 1:
   Tête:
@@ -154,6 +187,8 @@ Grouillant 1:
   Crabe:
     - Retributor Armour
     - Averland Sunset
+  pictures:
+    - 'pics/histoires-de-peluches/grouillants.jpg'
 
 Grouillant 2:
   Tête:
@@ -197,6 +232,9 @@ Coeur Noir 1:
     - Absolution Green
   Suture:
     - Abaddon Black
+  pictures:
+    - 'pics/histoires-de-peluches/coeur_noir-1.jpg'
+    - 'pics/histoires-de-peluches/coeur_noir-2.jpg'
 
 Coeur Noir 2:
   Visage:
@@ -256,3 +294,6 @@ Corniaud:
     - Rigor Mortis
   Yeux:
     - Mephiston Red
+  pictures:
+    - 'pics/histoires-de-peluches/corniaud-1.jpg'
+    - 'pics/histoires-de-peluches/corniaud-2.jpg'
