@@ -50,6 +50,10 @@ def html_table(colornames, html_divs):
     table.append("  </div>")
     return '\n'.join(table)
 
+def html_img(filename, alt):
+    img = f"<img src='{filename}' alt='{alt}' width='20%' height='20%'>"
+    return img
+
 
 class Project:
     def __init__(self, project_file):
@@ -78,9 +82,15 @@ class Figurine:
     def __init__(self, name, parts):
         self.name = name
         self.parts = parts
+        self.pictures = None
+        if "pictures" in parts.keys():
+            self.pictures = self.parts.pop("pictures")
 
     def to_html(self, stock):
         html_str = f"{html_title(self.name, 2)}"
+        if self.pictures is not None:
+            for p in self.pictures:
+                html_str += f"{html_img(p, self.name)}"
         for part in self.parts:
             html_str += f"{html_title(part, 3)}"
             part_paints  = []
