@@ -205,24 +205,30 @@ Bagarreur:
 Chef Gecko:
   Corps:
     - Space Wolves Grey
+  Yeux:
+    - Fire Giant Orange
   Couteaux:
     - Nuclear Yellow
     - Fire Giant Orange
+    - Wyldwood
   Habits:
     - Basilicanum Grey
-  Yeux:
-    - Nuclear Yellow
-    - Fire Giant Orange
+  Garrot:
+    - Basilicanum Grey
+    - Snakebite Leather
 
 Chasseur Gecko:
   Corps:
     - Absolution Green
+  Yeux:
+    - Fire Giant Orange
   Habits:
     - Basilicanum Grey
   Garrot:
+    - Basilicanum Grey
     - Snakebite Leather
   Fusil:
     - Leadbelcher
     - Wyldwood
-    - Space Wolves Grey
-    - Abaddon Black
+    - Snakebite Leather
+    - Talos Bronze
