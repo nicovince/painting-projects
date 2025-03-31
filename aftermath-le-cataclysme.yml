@@ -157,33 +157,14 @@ Muridoux:
     - Spellbound Fuschia
     - Artic Gem
 
-Chef Bagarreur:
-  Peau:
-    - Templar White
-  Fusil:
-    - Leadbelcher
-    - Wyldwood
-  Bandouillère:
-    - Snakebite Leather
-    - Leadbelcher
-  Plastron:
-    - Ghoul Green
-    - Absolution Green
-    - Highlord Blue
-  Crocs Plastron:
-    - Templar White
-    - Abaddon Black
-  Cache Cou:
-    - Absolution Green
-  Garrot Jamble:
-    - Snakebite Leather
-
 Bagarreur:
   Peau:
     - Templar White
   Fusil:
     - Leadbelcher
     - Wyldwood
+  Clef Anglaise:
+    - Leadbelcher
   Bandouillère:
     - Snakebite Leather
     - Leadbelcher
@@ -191,20 +172,24 @@ Bagarreur:
     - Ghoul Green
     - Absolution Green
     - Highlord Blue
+    - Fire Giant Orange
+    - Abaddon Black
   Crocs Plastron:
     - Templar White
     - Abaddon Black
   Cache Cou:
-    - Absolution Green
+    - Bony Matter
+    - Runic Grey
+    - Rigor Mortis
+    - Nuclear Yellow
   Garrot Jamble:
     - Snakebite Leather
-  Clef Anglaise:
-    - Leadbelcher
   Gants:
-    - Abaddon Black
+    - Basilicanum Grey
+  Lunettes:
     - Leadbelcher
-  Cache Cou:
-    - Moody Mauve
+    - Snakebite Leather
+    - Talos Bronze
 
 Chef Gecko:
   Corps:
