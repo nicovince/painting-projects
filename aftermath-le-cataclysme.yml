@@ -30,26 +30,30 @@ Ringr:
 
 Mezzie:
   Peau:
+    - Abaddon Black
+    - Corax White
     - Templar White
   Lunettes:
-    - Runic Grey
+    - Artic Gem
     - Abaddon Black
   Fusil:
     - Abaddon Black
     - Leadbelcher
-    - Talos Bronze
+    - Artic Gem
+  Poche:
     - Runic Grey
   Carquois:
-    - Bony Matter
+    - Leadbelcher
     - Snakebite Leather
   Cape:
-    - Runic Grey
+    - Basilicanum Grey
   Gants:
     - Abaddon Black
 
 Murmure:
   Peau:
-    - Runic Grey
+    - Abaddon Black
+    - Corax White
   Kimono:
     - Space Wolves Grey
   Oreilles:
