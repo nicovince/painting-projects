@@ -11,6 +11,8 @@ Ronchonne:
     - Leadbelcher
     - Wyldwood
     - Abaddon Black
+  Socle:
+    - Stirland Mud
 
 Ringr:
   Peau:
@@ -27,6 +29,8 @@ Ringr:
   Fioles:
     - Fire Giant Orange
     - Wyldwood
+  Socle:
+    - Stirland Mud
 
 Mezzie:
   Peau:
@@ -49,6 +53,8 @@ Mezzie:
     - Basilicanum Grey
   Gants:
     - Abaddon Black
+  Socle:
+    - Stirland Mud
 
 Murmure:
   Peau:
@@ -68,6 +74,8 @@ Murmure:
     - Wyldwood
   Epingle à nourice:
     - Leadbelcher
+  Socle:
+    - Stirland Mud
 
 Sire Rouillard:
   Peau:
@@ -99,8 +107,9 @@ Sire Rouillard:
     - Mephiston Red
     - Leadbelcher
   Socle:
+    - Burning Ore
     - Agrellan Earth
-    - Talos Bronze
+    - Nuclear Yellow
 
 Fumerolle:
   Pelage:
@@ -132,6 +141,7 @@ Oracle Rougeoyeux:
   Robe:
     - Basilicanum Grey
   Socle:
+    - Kantor Blue
     - Agrellan Earth
     - Space Wolves Grey
 
