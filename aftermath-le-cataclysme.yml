@@ -13,6 +13,7 @@ Ronchonne:
     - Abaddon Black
   Socle:
     - Stirland Mud
+    - Caliban Green
 
 Ringr:
   Peau:
@@ -31,6 +32,7 @@ Ringr:
     - Wyldwood
   Socle:
     - Stirland Mud
+    - Caliban Green
 
 Mezzie:
   Peau:
@@ -55,6 +57,7 @@ Mezzie:
     - Abaddon Black
   Socle:
     - Stirland Mud
+    - Averland Sunset
 
 Murmure:
   Peau:
@@ -76,6 +79,7 @@ Murmure:
     - Leadbelcher
   Socle:
     - Stirland Mud
+    - Averland Sunset
 
 Sire Rouillard:
   Peau:
@@ -109,7 +113,7 @@ Sire Rouillard:
   Socle:
     - Burning Ore
     - Agrellan Earth
-    - Nuclear Yellow
+    - Burning Ore
 
 Fumerolle:
   Pelage:
@@ -143,7 +147,8 @@ Oracle Rougeoyeux:
   Socle:
     - Kantor Blue
     - Agrellan Earth
-    - Space Wolves Grey
+    - Abaddon Black
+    - Corax White
 
 Scorpion:
   Carapace:
