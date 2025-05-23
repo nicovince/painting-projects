@@ -14,6 +14,7 @@ Ronchonne:
   Socle:
     - Stirland Mud
     - Caliban Green
+    - Retributor Armour
 
 Ringr:
   Peau:
@@ -33,6 +34,7 @@ Ringr:
   Socle:
     - Stirland Mud
     - Caliban Green
+    - Retributor Armour
 
 Mezzie:
   Peau:
@@ -58,6 +60,7 @@ Mezzie:
   Socle:
     - Stirland Mud
     - Averland Sunset
+    - Retributor Armour
 
 Murmure:
   Peau:
@@ -80,6 +83,7 @@ Murmure:
   Socle:
     - Stirland Mud
     - Averland Sunset
+    - Retributor Armour
 
 Sire Rouillard:
   Peau:
@@ -114,6 +118,7 @@ Sire Rouillard:
     - Burning Ore
     - Agrellan Earth
     - Burning Ore
+    - Kantor Blue
 
 Fumerolle:
   Pelage:
@@ -131,6 +136,7 @@ Fumerolle:
     - Princess Pink
     - Rigor Mortis
   Socle:
+    - Stirland Mud
     - Caliban Green
 
 Oracle Rougeoyeux:
@@ -149,6 +155,7 @@ Oracle Rougeoyeux:
     - Agrellan Earth
     - Abaddon Black
     - Corax White
+    - Kantor Blue
 
 Scorpion:
   Carapace:
@@ -159,7 +166,7 @@ Scorpion:
   Socle:
     - Stirland Mud
     - Rigor Mortis
-
+    - Abaddon Black
 
 Chef Muridoux:
   Peau:
@@ -175,7 +182,9 @@ Chef Muridoux:
     - Princess Pink
   Socle:
     - Stirland Mud
+    - Corax White
     - Fire Giant Orange
+    - Abaddon Black
 
 Muridoux:
   Peau:
@@ -199,7 +208,9 @@ Muridoux:
     - Artic Gem
   Socle:
     - Stirland Mud
+    - Corax White
     - Fire Giant Orange
+    - Abaddon Black
 
 Bagarreur:
   Peau:
@@ -237,6 +248,7 @@ Bagarreur:
   Socle:
     - Stirland Mud
     - Bony Matter
+    - Mephiston Red
 
 Chef Gecko:
   Corps:
@@ -254,7 +266,9 @@ Chef Gecko:
     - Snakebite Leather
   Socle:
     - Stirland Mud
+    - Corax White
     - Nuclear Yellow
+    - Abaddon Black
 
 Chasseur Gecko:
   Corps:
@@ -273,4 +287,6 @@ Chasseur Gecko:
     - Talos Bronze
   Socle:
     - Stirland Mud
+    - Corax White
     - Nuclear Yellow
+    - Abaddon Black
