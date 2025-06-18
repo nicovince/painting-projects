@@ -64,8 +64,20 @@ Army Painter:
       color: 0xDF318A
     Princess Pink:
       color: 0xECA5BD
+  Warpaints Fanatic:
+    Burning Ore:
+      color: 0xF2653C
+    Spellbound Fuschia:
+      color: 0xF2653C
+    Artic Gem:
+      color: 0x1A95D3
 
 Vallejo:
+  Xpress Colors:
+    Templar White:
+      color: 0xC2C6C5
+    Nuclear Yellow:
+      color: 0xC98A11
   Varnish:
     Satin Varnish:
       color: 0xffffff
