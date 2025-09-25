@@ -1,0 +1,217 @@
+Araignees:
+  Peau:
+    - Basilicanum Grey
+  Yeux:
+    - Abaddon Black
+  Crocs:
+    - Rigor Mortis
+
+Grosse Araignee:
+  Peau:
+    - Basilicanum Grey
+  Yeux:
+    - Abaddon Black
+  Crocs:
+    - Rigor Mortis
+  Dard:
+    - Rigor Mortis
+
+Spectre:
+  Squelette:
+    - Rigor Mortis
+  Cape:
+    - Basilicanum Grey
+  Plastron:
+    - Snakebite Leather
+  Ceinture:
+    - Leadbelcher
+  Bouclier:
+    - Leadbelcher
+    - Wyldwood
+    - Snakebite Leather
+  Heaume:
+    - Leadbelcher
+  Epee:
+    - Leadbelcher
+    - Abaddon Black
+
+Gobelin:
+  Peau:
+    - Plaguebearer Flesh
+  Bottes:
+    - Snakebite Leather
+  Besace:
+    - Snakebite Leather
+  Pagne:
+    - Aggaros Dunes
+  Lance:
+    - Wyldwood
+    - Leadbelcher
+  Bandouilleres:
+    - Snakebite Leather
+  Pioche:
+    - Leadbelcher
+    - Wyldwood
+
+Orc:
+  Peau:
+    - Plaguebearer Flesh
+  Fouet:
+    - Aggaros Dunes
+  Casque:
+    - Leadbelcher
+    - Abaddon Black
+  Fourrure:
+    - Space Wolves Grey
+  Pagne:
+    - Basilicanum Grey
+  Epeaulettes:
+    - Leadbelcher
+  Bretelles:
+    - Snakebite Leather
+  Chaussures:
+    - Snakebite Leather
+
+Ver:
+  Corps:
+    - Bony Matter
+  Dents:
+    - Templar White
+  Griffes:
+    - Templar White
+
+Troll:
+  Corps:
+    - Rigor Mortis
+  Pagne:
+    - Aggaros Dunes
+  Massue:
+    - Bony Matter
+  Chaussures:
+    - Snakebite Leather
+
+Troll Ollie:
+  Corps:
+    - Bony Matter
+  Pagne:
+    - Aggaros Dunes
+  Massue:
+    - Bony Matter
+  Chaussures:
+    - Snakebite Leather
+  Menottes:
+    - Leadbelcher
+  Casque:
+    - Snakebite Leather
+
+Spectre Ursa:
+  Squelette:
+    - Rigor Mortis
+  Masse:
+    - Leadbelcher
+    - Wyldwood
+  Cape:
+    - Basilicanum Grey
+  Armure:
+    - Leadbelcher
+  Cheveux:
+    - Templar White
+  Couronne:
+    - Leadbelcher
+
+Suppliant de Morgoth:
+  Peau:
+    - Plaguebearer Flesh
+  Masse:
+    - Wyldwood
+    - Leadbelcher
+  Cape:
+    - Aggaros Dunes
+    - Snakebite Leather
+
+Gandalf:
+  Peau:
+    - Guilliman Flesh
+  Barbe:
+    - Templar White
+  Robe:
+    - Space Wolves Grey
+  Cape:
+    - Space Wolves Grey
+  Chapeau:
+    - Space Wolves Grey
+  Epée:
+    - Snakebite Leather
+    - Leadbelcher
+    - Retributor Armour
+  Staff:
+    - Wyldwood
+    - Arctic Gem
+    - Corax White
+
+Éléanor:
+  Peau:
+    - Guilliman Flesh
+  Cheveux:
+    - Abaddon Black
+  Epée:
+    - Leadbelcher
+  Fourreau:
+    - Snakebite Leather
+  Cape:
+    - Highlord Blue
+  Chemise:
+    - Corax White
+  Pantalon:
+    - Aggaros Dunes
+
+Arwen:
+  Peau:
+    - Guilliman Flesh
+  Cheveux:
+    - Abaddon Black
+  Robe:
+    - Absolution Green
+  Cape:
+    - Bony Matter
+
+Balin:
+  Peau:
+    - Guilliman Flesh
+  Barbe:
+    - Templar White
+  Hache:
+    - Leadbelcher
+    - Wyldwood
+  Chaussures:
+    - Abaddon Black
+  Cape:
+    - Mephiston Red
+  Tunique:
+    - Aggaros Dunes
+    - Snakebite Leather
+  Chemise:
+    - Absolution Green
+  Faucon:
+    - Space Wolves Grey
+    - Averland Sunset
+
+Dis:
+  Peau:
+    - Guilliman Flesh
+  Cape:
+    - Mephiston Red
+  Cheveux:
+    - Templar White
+  Barbe:
+    - Templar White
+  Epeaulettes/Gants/Genouillères:
+    - Snakebite Leather
+    - Retributor Armour
+  Masse:
+    - Wyldwood
+    - Leadbelcher
+    - Retributor Armour
+  Chaussures:
+    - Leadbelcher
+    - Abaddon Black
