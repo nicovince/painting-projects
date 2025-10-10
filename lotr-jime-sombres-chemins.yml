@@ -2,7 +2,7 @@ Araignees:
   Peau:
     - Basilicanum Grey
   Yeux:
-    - Abaddon Black
+    - Mephiston Red
   Crocs:
     - Rigor Mortis
 
@@ -38,6 +38,8 @@ Spectre:
 Gobelin:
   Peau:
     - Plaguebearer Flesh
+  Ceinture:
+    - Rigor Mortis
   Bottes:
     - Snakebite Leather
   Besace:
@@ -79,9 +81,12 @@ Ver:
     - Runic Grey
     - Basilicanum Grey
   Dents:
-    - Templar White
+    - Corax White
   Griffes:
-    - Templar White
+    - Corax White
+  Rocher:
+    - Runic Grey
+    - Corax White
 
 Troll:
   Corps:
