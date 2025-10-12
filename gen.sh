@@ -1,5 +1,5 @@
 #!/bin/bash -e
-OUT_DIR="output"
+OUT_DIR="${1:-output}"
 
 while read -r yml;
 do

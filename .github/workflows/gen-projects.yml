@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - "main"
+      - "dbg-action"
 jobs:
   # Build job
   build:
@@ -16,7 +17,12 @@ jobs:
 
       - name: Generate assets
         run: |
-          ./gen.sh
+          ./gen.sh "${OUT_DIR}"
+
+      - name: debug
+        run: |
+          ls
+          ls "${OUT_DIR}"
 
       - name: Upload static files as artifact
         id: deployment
