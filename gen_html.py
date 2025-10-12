@@ -4,6 +4,7 @@ import argparse
 import logging
 import sys
 import yaml
+import os
 from stock import Stock
 from paint import Paint
 
@@ -104,9 +105,20 @@ class Figurine:
             html_str += f"{html_table_paints(part_paints)}"
         return html_str
 
+    def __str__(self):
+        s = ""
+        s += f"{self.name}:\n"
+        for p in self.parts:
+            s += f"  - {p}\n"
+            for c in self.parts[p]:
+                s += f"    - {c}\n"
+        return s
 
-def generate(project, stock):
-    html_file = f"{project.get_name()}.html"
+
+def generate(project, stock, out_dir):
+    html_file = f"{out_dir}/{project.get_name()}.html"
+    # Create out_dir
+    os.makedirs(out_dir, exist_ok=True)
     logger.info("Processing %s", project.project_file)
     with open(html_file, 'w') as f:
         f.write(html_header())
@@ -131,10 +143,12 @@ def main():
     parser.add_argument('project',
                         help=('Painting project yaml file containing the colors used in '
                               'a project.'))
+    parser.add_argument("--output-folder", default="./output/",
+                        help='Folder where html pages are created.')
     args = parser.parse_args()
     stock = Stock('stock.yml')
     project = Project(args.project)
-    generate(project, stock)
+    generate(project, stock, args.output_folder)
 
 
 if __name__ == "__main__":
