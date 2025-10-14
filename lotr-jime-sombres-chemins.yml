@@ -31,7 +31,7 @@ Spectre:
     - Snakebite Leather
   Heaume:
     - Leadbelcher
-  Epee:
+  Epée:
     - Leadbelcher
     - Abaddon Black
 
@@ -51,6 +51,8 @@ Gobelin:
     - Leadbelcher
   Bandouilleres:
     - Snakebite Leather
+  Couteau:
+    - Leadbelcher
   Pioche:
     - Leadbelcher
     - Wyldwood
