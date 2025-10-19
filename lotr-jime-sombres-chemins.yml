@@ -18,7 +18,7 @@ Grosse Araignee:
 
 Spectre:
   Squelette:
-    - Rigor Mortis
+    - Templar White
   Cape:
     - Basilicanum Grey
   Plastron:
@@ -116,7 +116,7 @@ Troll Ollie:
 
 Spectre Ursa:
   Squelette:
-    - Rigor Mortis
+    - Templar White
   Masse:
     - Leadbelcher
     - Wyldwood
@@ -124,6 +124,7 @@ Spectre Ursa:
     - Basilicanum Grey
   Armure:
     - Leadbelcher
+    - Aggaros Dunes
   Cheveux:
     - Templar White
   Couronne:
@@ -148,22 +149,26 @@ Gandalf:
     - Space Wolves Grey
   Cape:
     - Space Wolves Grey
+    - Runic Grey
+    - Corax White
   Chapeau:
-    - Space Wolves Grey
+    - Runic Grey
+    - Kantor Blue
+    - Corax White
   Epée:
-    - Snakebite Leather
     - Leadbelcher
     - Retributor Armour
   Staff:
     - Wyldwood
-    - Arctic Gem
-    - Corax White
+    - Bony Matter
+    - Templar White
 
 Éléanor:
   Peau:
     - Guilliman Flesh
   Cheveux:
     - Abaddon Black
+    - Basilicanum Grey
   Epée:
     - Leadbelcher
   Fourreau:
@@ -180,6 +185,7 @@ Arwen:
     - Guilliman Flesh
   Cheveux:
     - Abaddon Black
+    - Basilicanum Grey
   Robe:
     - Absolution Green
   Cape:
@@ -194,6 +200,8 @@ Balin:
     - Leadbelcher
     - Wyldwood
   Chaussures:
+    - Leadbelcher
+    - Retributor Armour
     - Abaddon Black
   Cape:
     - Mephiston Red
@@ -224,4 +232,5 @@ Dis:
     - Retributor Armour
   Chaussures:
     - Leadbelcher
+    - Retributor Armour
     - Abaddon Black
