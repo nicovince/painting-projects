@@ -41,7 +41,7 @@ Gobelin:
   Ceinture:
     - Rigor Mortis
   Bottes:
-    - Snakebite Leather
+    - Basilicanum Grey
   Besace:
     - Snakebite Leather
   Pagne:
@@ -53,6 +53,9 @@ Gobelin:
     - Snakebite Leather
   Couteau:
     - Leadbelcher
+    - Wyldwood
+  Bracelets:
+    - Aggaros Dunes
   Pioche:
     - Leadbelcher
     - Wyldwood
