@@ -67,7 +67,6 @@ Orc:
     - Aggaros Dunes
   Casque:
     - Leadbelcher
-    - Abaddon Black
   Fourrure:
     - Space Wolves Grey
   Pagne:
@@ -170,16 +169,21 @@ Gandalf:
   Peau:
     - Guilliman Flesh
   Cheveux:
-    - Abaddon Black
     - Basilicanum Grey
   Epée:
     - Leadbelcher
+    - Wyldwood
   Fourreau:
+    - Snakebite Leather
+    - Retributor Armour
+  Chaussures:
+    - Snakebite Leather
+  Ceinture:
     - Snakebite Leather
   Cape:
     - Highlord Blue
   Chemise:
-    - Corax White
+    - Templar White
   Pantalon:
     - Aggaros Dunes
 
@@ -187,12 +191,14 @@ Arwen:
   Peau:
     - Guilliman Flesh
   Cheveux:
-    - Abaddon Black
     - Basilicanum Grey
   Robe:
     - Absolution Green
   Cape:
-    - Bony Matter
+    - Rigor Mortis
+  Fourreau:
+    - Aggaros Dunes
+    - Retributor Armour
 
 Balin:
   Peau:
@@ -211,6 +217,9 @@ Balin:
   Tunique:
     - Aggaros Dunes
     - Snakebite Leather
+  Manchettes:
+    - Aggaros Dunes
+    - Retributor Armour
   Chemise:
     - Absolution Green
   Faucon:
