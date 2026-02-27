@@ -38,6 +38,7 @@ Spectre:
     - Abaddon Black
   Socle:
     - Middle Earth
+    - Runic Grey
     - Abaddon Black
 
 Gobelin:
@@ -87,6 +88,8 @@ Orc:
     - Snakebite Leather
   Socle:
     - Middle Earth
+    - Rigor Mortis
+    - Fire Giant Orange
     - Caliban Green
 
 Ver:
@@ -156,6 +159,7 @@ Spectre Ursa:
     - Leadbelcher
   Socle:
     - Agrellan Earth
+    - Runic Grey
     - Abaddon Black
 
 Suppliant de Morgoth:
@@ -172,6 +176,9 @@ Suppliant de Morgoth:
   Cape:
     - Aggaros Dunes
     - Snakebite Leather
+  Socle:
+    - Middle Earth
+    - Abaddon Black
 
 Gandalf:
   Peau:
