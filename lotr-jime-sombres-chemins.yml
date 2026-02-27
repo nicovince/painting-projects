@@ -107,6 +107,11 @@ Troll:
     - Bony Matter
   Chaussures:
     - Snakebite Leather
+  Socle:
+    - Burning Ore
+    - Agrellan Earth
+    - Velvet Red
+    - Abaddon Black
 
 Troll Ollie:
   Corps:
@@ -119,6 +124,11 @@ Troll Ollie:
     - Leadbelcher
   Casque:
     - Snakebite Leather
+  Socle:
+    - Burning Ore
+    - Agrellan Earth
+    - Velvet Red
+    - Abaddon Black
 
 Spectre Ursa:
   Squelette:
