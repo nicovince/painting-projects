@@ -36,6 +36,9 @@ Spectre:
   Epée:
     - Leadbelcher
     - Abaddon Black
+  Socle:
+    - Middle Earth
+    - Abaddon Black
 
 Gobelin:
   Peau:
@@ -61,6 +64,9 @@ Gobelin:
   Pioche:
     - Leadbelcher
     - Wyldwood
+  Socle:
+    - Middle Earth
+    - Averland Sunset
 
 Orc:
   Peau:
@@ -145,6 +151,9 @@ Spectre Ursa:
     - Templar White
   Couronne:
     - Leadbelcher
+  Socle:
+    - Agrellan Earth
+    - Abaddon Black
 
 Suppliant de Morgoth:
   Peau:
