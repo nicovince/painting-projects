@@ -40,6 +40,8 @@ Spectre:
     - Middle Earth
     - Runic Grey
     - Abaddon Black
+  Vernis:
+    - Matt Varnish
 
 Gobelin:
   Peau:
@@ -68,6 +70,8 @@ Gobelin:
   Socle:
     - Middle Earth
     - Averland Sunset
+  Vernis:
+    - Matt Varnish
 
 Orc:
   Peau:
@@ -91,6 +95,8 @@ Orc:
     - Rigor Mortis
     - Fire Giant Orange
     - Caliban Green
+  Vernis:
+    - Matt Varnish
 
 Ver:
   Corps:
@@ -124,6 +130,8 @@ Troll:
     - Agrellan Earth
     - Velvet Red
     - Abaddon Black
+  Vernis:
+    - Matt Varnish
 
 Troll Ollie:
   Corps:
@@ -141,6 +149,8 @@ Troll Ollie:
     - Agrellan Earth
     - Velvet Red
     - Abaddon Black
+  Vernis:
+    - Matt Varnish
 
 Spectre Ursa:
   Squelette:
@@ -161,6 +171,8 @@ Spectre Ursa:
     - Agrellan Earth
     - Runic Grey
     - Abaddon Black
+  Vernis:
+    - Matt Varnish
 
 Suppliant de Morgoth:
   Peau:
@@ -179,6 +191,8 @@ Suppliant de Morgoth:
   Socle:
     - Middle Earth
     - Abaddon Black
+  Vernis:
+    - Matt Varnish
 
 Gandalf:
   Peau:
@@ -206,6 +220,8 @@ Gandalf:
     - Retributor Armour
     - Middle Earth
     - Caliban Green
+  Vernis:
+    - Matt Varnish
 
 Éléanor:
   Peau:
@@ -232,6 +248,8 @@ Gandalf:
     - Retributor Armour
     - Middle Earth
     - Averland Sunset
+  Vernis:
+    - Matt Varnish
 
 Arwen:
   Peau:
@@ -249,6 +267,8 @@ Arwen:
     - Retributor Armour
     - Middle Earth
     - Caliban Green
+  Vernis:
+    - Matt Varnish
 
 Balin:
   Peau:
