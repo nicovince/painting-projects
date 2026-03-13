@@ -26,15 +26,176 @@ def html_header():
 
 def html_head(title):
     return f'''<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
     </head>'''
 
 def html_style():
-    return ''
     return '''<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: #222;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.75rem;
+        color: #555;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .image-gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+        transform: scale(1.05);
+    }
+
     .table {
-        width: 10%;
-        margin: auto;
+        width: 100%;
+        overflow-x: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    tr {
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+    td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+    }
+
+    td:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 60px;
+    }
+
+    td:first-child div {
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        border: 1px solid #ddd;
+    }
+
+    /* Mobile: < 768px */
+    @media (max-width: 767px) {
+        body {
+            padding: 0.75rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        .image-gallery {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .table {
+            margin-bottom: 1rem;
+        }
+
+        td {
+            padding: 0.5rem 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        td:first-child div {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    /* Tablet: 768px - 1024px */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        body {
+            padding: 1.25rem;
+        }
+
+        .image-gallery {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.25rem;
+        }
+    }
+
+    /* Desktop: > 1024px */
+    @media (min-width: 1025px) {
+        .image-gallery {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
     }
     </style>'''
 
@@ -52,7 +213,7 @@ def html_table(colornames, html_divs):
     return '\n'.join(table)
 
 def html_img(filename, alt):
-    img = f"<img src='{filename}' alt='{alt}' width='20%' height='20%'>"
+    img = f"<img src='{filename}' alt='{alt}'>"
     return img
 
 
@@ -90,8 +251,10 @@ class Figurine:
     def to_html(self, stock):
         html_str = f"{html_title(self.name, 2)}"
         if self.pictures is not None:
+            html_str += "<div class='image-gallery'>"
             for p in self.pictures:
                 html_str += f"{html_img(p, self.name)}"
+            html_str += "</div>"
         for part in self.parts:
             html_str += f"{html_title(part, 3)}"
             part_paints  = []
@@ -125,10 +288,12 @@ def generate(project, stock, out_dir):
         f.write(html_head(project.get_name()))
         f.write("<body>")
         f.write(html_style())
+        f.write("<div class='container'>")
         f.write(html_title(project.get_name(), 1))
         for mini in project.project:
             figurine = Figurine(mini, project.project[mini])
             f.write(figurine.to_html(stock))
+        f.write("</div>")
         f.write("</body>")
         f.write('</html>')
 
