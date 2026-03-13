@@ -40,6 +40,11 @@ Citadel:
     Stirland Mud:
       color: 0x2C211F
 
+Green Stuff World:
+  Texture:
+    Middle Earth:
+      color: 0x627C0E
+
 Army Painter:
   Speed Paint:
     Fire Giant Orange:
@@ -78,6 +83,8 @@ Vallejo:
       color: 0xC2C6C5
     Nuclear Yellow:
       color: 0xC98A11
+    Velvet Red:
+      color: 0x692E27
   Varnish:
     Satin Varnish:
       color: 0xffffff
